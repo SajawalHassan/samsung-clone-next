@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Banner from "./Banner";
-import Header from "./Header";
+import Banner from "./components/Banner";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
