@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Banner from "./Banner";
 import Header from "./Header";
 
 export default function Home() {
@@ -12,7 +13,9 @@ export default function Home() {
       <Header />
 
       <main>
-        {/* Banner (COMPONENTS) */}
+        <div>
+          <Banner />
+        </div>
 
         {/* This Month's Picks (COMPONENTS) */}
 
