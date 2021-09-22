@@ -1,5 +1,5 @@
 <!-- PROJECT LOGO -->
-  <h3 align="center">Samsung website clone</h3>
+  <h1 align="center">Samsung website clone</h3>
 
   <p align="center">
     A samsung website clone for pacticing
