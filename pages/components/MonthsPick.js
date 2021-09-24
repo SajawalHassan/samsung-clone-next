@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Product from "./Product";
+import Product from "./MonthsPickProduct";
 
 const product1Img =
   "https://images.samsung.com/is/image/samsung/assets/pk/PCD_KV_Merchandising_264X264.png?$264_264_PNG$";
