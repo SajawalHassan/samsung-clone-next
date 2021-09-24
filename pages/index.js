@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Banner from "./components/Banner";
 import Header from "./components/Header";
+import Products from "./components/Products";
 
 export default function Home() {
   return (
@@ -13,21 +14,24 @@ export default function Home() {
       <Header />
 
       <main>
-        <div>
-          <Banner />
-        </div>
+        <Banner />
 
-        {/* This Month's Picks (COMPONENTS) */}
+        <Products
+          heading="This Month's Picks"
+          option1="Mobile"
+          option2="TV & AV"
+          option3="Home Appliances"
+          option4="Offer"
+        />
+        {/* Mobile (COMPONENT) */}
 
-        {/* Mobile (COMPONENTS) */}
+        {/* Tv & Sound (COMPONENT) */}
 
-        {/* Tv & Sound (COMPONENTS) */}
+        {/* Home Appliances (COMPONENT) */}
 
-        {/* Home Appliances (COMPONENTS) */}
+        {/* #DoWhatYouCant (COMPONENT) */}
 
-        {/* #DoWhatYouCant (COMPONENTS) */}
-
-        {/* Looking for Something else? (COMPONENTS) */}
+        {/* Looking for Something else? (COMPONENT) */}
       </main>
     </div>
   );

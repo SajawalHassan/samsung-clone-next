@@ -10,7 +10,10 @@ export default function Banner() {
         className="text-center absolute top-20
       space-y-10"
       >
-        <h1 className="text-5xl font-medium">
+        <h1
+          className="text-5xl font-medium 
+        overflow-hidden"
+        >
           Free up your life with Galaxy Week Deals
         </h1>
 

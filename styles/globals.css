@@ -12,4 +12,21 @@
      cursor-pointer font-normal transition 
      duration-300;
   }
+
+  .option-link {
+    @apply text-lg font-extrabold space-x-8 ml-4;
+  }
+
+  .option-h {
+    @apply hover:text-gray-500 transition duration-150 cursor-pointer;
+  }
+
+  .product {
+    @apply bg-gradient-to-l from-button_t_bg
+          to-button_b_bg cursor-pointer;
+  }
+}
+
+* {
+  overflow-x: hidden;
 }
