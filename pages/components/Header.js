@@ -13,7 +13,7 @@ export default function Header() {
       <div>
         <h1
           className="font-mono text-2xl
-         font-extrabold"
+         font-extrabold cursor-pointer"
         >
           SAMSUNG
         </h1>

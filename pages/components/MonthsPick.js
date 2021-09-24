@@ -1,11 +1,20 @@
 import Image from "next/image";
 import Product from "./MonthsPickProduct";
 
-const product1Img =
+const productMain1Img =
   "https://images.samsung.com/is/image/samsung/assets/pk/PCD_KV_Merchandising_264X264.png?$264_264_PNG$";
 
-const product2Img =
+const product1Img =
   "https://images.samsung.com/is/image/samsung/assets/pk/HOME_B2_KV_Merchandising_192X192.png?$192_192_PNG$";
+
+const product2Img =
+  "https://images.samsung.com/is/image/samsung/assets/pk/Home_trending_MO_Fresh.jpg?$192_192_JPG$";
+
+const product3Img =
+  "https://images.samsung.com/is/image/samsung/assets/pk/160x160_s21.png?$192_192_PNG$";
+
+const product4Img =
+  "https://images.samsung.com/is/image/samsung/assets/pk/Home_trending_MO_Berry.jpg?$296_352_JPG$";
 
 export default function MonthsPick({
   heading,
@@ -36,11 +45,16 @@ export default function MonthsPick({
 
       <div className="flex justify-center">
         <div className="flex items-center space-x-4 product">
-          <Image src={product1Img} width={150} height={150} loading="lazy" />
+          <Image
+            src={productMain1Img}
+            width={150}
+            height={150}
+            loading="lazy"
+          />
 
           <div>
             <h1>Galaxy Z Fold3 5G</h1>
-            <p className="text-xs text-gray-500 mr-3">
+            <p className="text-xs text-gray-500 text-center">
               ready to unfold your world
             </p>
           </div>
@@ -52,24 +66,24 @@ export default function MonthsPick({
           my-5 space-y-2 items-center"
       >
         <Product
-          img={product2Img}
+          img={product1Img}
           title="Galaxy Z Flip3 5G"
-          description="The watch that knows you best"
+          description="A good thing just got better"
         />
         <Product
           img={product2Img}
-          title="Galaxy Z Flip3 5G"
+          title="Galaxy Watch4"
           description="The watch that knows you best"
         />
         <Product
-          img={product2Img}
-          title="Galaxy Z Flip3 5G"
-          description="The watch that knows you best"
+          img={product3Img}
+          title="Galaxy S21 Series 5G"
+          description="Designed with a unique contour-cut camera to create..."
         />
         <Product
-          img={product2Img}
-          title="Galaxy Z Flip3 5G"
-          description="The watch that knows you best"
+          img={product4Img}
+          title="Galaxy Buds2"
+          description="Immerse yourself into your own world"
         />
       </div>
     </div>
